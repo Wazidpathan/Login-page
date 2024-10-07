@@ -1,0 +1,24 @@
+@media (max-width:600px){
+    nav{
+        height: 20vw;
+        background-color: red;
+        font-size: 4vw;
+    }
+    nav button{
+        font-size: 4vw;
+        padding: 2vw 8vw;
+    }
+    .form{
+        padding: 47vw 13vw;
+    }
+    .form .input{
+        margin: 0 6px 3px 3vw;
+    padding: 18px 0 14px 0;
+    
+    }
+}
+@media ( min-width:1024px){
+    .form{
+        padding: 14vw 16vw ;
+    }   
+}

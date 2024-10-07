@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+        position: relative;
+        background-image: url(https://images.unsplash.com/photo-1669937401489-fb1ebb31d762?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+#page{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+nav{
+ 
+    height: 9vw;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    font-size: 1.4vw;
+}
+
+nav button{
+    font-size: 1.4vw;
+    padding: 10px 50px ;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: transparent;
+    
+}
+nav button:hover{
+    color: #fff;
+    background-color: black;
+    transition: 0.5s;
+}
+#page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* pointer-events: none; */
+}
+
+#content{
+    height: calc(100vh - 9vw);
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    margin: 10vw 0 0 0;
+    opacity: 0;
+
+
+}
+
+.form{
+    display: flex;
+    height: 22vw;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgba(247, 64, 64, 0.7);
+    backdrop-filter: blur(20px);
+    padding: 20vw 12vw;
+    border-radius: 20px;
+   
+    /* background-color: red; */
+    /* background: transparent; */
+}
+.form h1{
+   
+    text-align: center;
+}
+
+.input{
+    padding: 20px 0 12px 0;
+    border-bottom: 2px solid black;
+} 
+.submit{
+    margin: 1.5vw;
+    padding: 5px ;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: transparent;
+    color: #fff;
+}
+.form .submit:hover{
+    color: rgb(16, 16, 16);
+    background-color: rgb(234, 231, 231);
+    transition: 0.5s;
+}
+.login{
+    display: flex;
+}
+
+.login a:hover{
+    color: #fff;
+}
+.forget a{
+    display: flex;
+    text-align: center;
+}
+.forget a:hover{
+    color: #fff;
+}
